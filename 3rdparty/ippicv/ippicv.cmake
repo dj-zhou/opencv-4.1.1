@@ -44,7 +44,7 @@ function(download_ippicv root_var)
                URL
                  "${OPENCV_IPPICV_URL}"
                  "$ENV{OPENCV_IPPICV_URL}"
-				 "file://${HOME}/soft/"
+				 "file://${HOME}/soft/ippicv/"
                DESTINATION_DIR "${THE_ROOT}"
                ID IPPICV
                STATUS res
