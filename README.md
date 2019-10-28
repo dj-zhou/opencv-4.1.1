@@ -29,7 +29,7 @@ If **dj-convenience** is used, the following command will do it for installing O
 dj setup opencv-4.1.1 [with-contrib/no-contrib]
 ```
 
-
+<span style="color:red">However,  the ${HOME} settings seems not work! Will solve it later.</span>
 
 ### Resources
 
