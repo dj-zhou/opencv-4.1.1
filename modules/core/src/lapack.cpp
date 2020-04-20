@@ -50,8 +50,8 @@
 #    pragma warning(disable:4702)  // unreachable code
 #    pragma warning(disable:4714)  // const marked as __forceinline not inlined
 #  endif
-#  include <Eigen/Core>
-#  include <Eigen/Eigenvalues>
+#  include <eigen3/Eigen/Core>
+#  include <eigen3/Eigen/Eigenvalues>
 #  if defined(_MSC_VER)
 #    pragma warning(pop)
 #  endif

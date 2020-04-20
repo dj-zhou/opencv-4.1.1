@@ -4,8 +4,8 @@
 #include "test_precomp.hpp"
 
 #ifdef HAVE_EIGEN
-#include <Eigen/Core>
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/Dense>
 #include "opencv2/core/eigen.hpp"
 #endif
 

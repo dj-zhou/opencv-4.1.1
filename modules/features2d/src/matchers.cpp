@@ -53,7 +53,7 @@
 #    pragma warning(disable:4702)  // unreachable code
 #    pragma warning(disable:4714)  // const marked as __forceinline not inlined
 #  endif
-#  include <Eigen/Array>
+#  include <eigen3/Eigen/Array>
 #  if defined(_MSC_VER)
 #    pragma warning(pop)
 #  endif
