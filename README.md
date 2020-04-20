@@ -23,13 +23,19 @@ The source code is of version 4.1.1, however, there is some modification:
   git clone https://gitee.com/dj-zhou_zhoudingjiang/ippicv.git
   ```
 
-If **dj-convenience** is used, the following command will do it for installing OpenCV:
+If **djtools** is used, the following command will do it for installing OpenCV:
 
 ```bash
 dj setup opencv-4.1.1 [with-contrib/no-contrib]
 ```
 
 <span style="color:red">However,  the ${HOME} settings seems not work! Will solve it later.</span>
+
+If the compile shows error that Eigen/Core etc cannot be found, you can use the add-eigen3-include branch for compile, and of course, you need to make sure eigen3 is installed by
+$$
+dj setup eigen
+$$
+
 
 ### Resources
 
